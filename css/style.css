@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 100vh;
+}
+
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+.slider {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 6;
+}
+
+.nav-bar {
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.settings-bar {
+    margin-right: 35px;
+    margin-top: 15px;
+}
+
+.slider video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.logo-bar {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.logo-bar i {
+    font-size: 25px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.settings-bar a:hover {
+    border-bottom: #fff solid 1px;
+}
+
+.settings-bar a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.settings-bar :nth-child(5) {
+    color: #000;
+}
+
+.store-settings {
+    background-color: #fff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.store-settings:hover {
+    transition: all .3s ease;
+    background-color: transparent;
+    color: #fff;
+    border: #fff solid 1px;
+}
+
+.store-settings i {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.video-hero {
+    position: relative;
+}
+
+.hero-info {
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-info {
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hero-info span {
+    color: transparent;
+    -webkit-text-stroke: .5px #fff;
+    font-size: 45px;
+}
+
+.hero-info .hero-comment {
+    font-size: 21px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.hero-info .hero-comment span {
+    font-size: 21px;
+    -webkit-text-stroke: .19px #fff;
+}
+
+.hero-buttons button {
+    padding: 15px 45px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.hero-buttons :nth-child(1) {
+    margin-right: 30px;
+    color: #fff;
+    border: #fff solid 1px;
+    background-color: transparent;
+    border-radius: 1px;
+}
+
+.hero-buttons :nth-child(2) {
+    background-color: #fff;
+    border-color: transparent;
+    border-radius: 1px;
+}
+
+.hero-buttons button:hover {
+    transition: all .3s ease;
+    padding: 16px 46px;
+}
+
+.about {
+    background-color: #000;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.title-about {
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2rem;
+    position: absolute;
+    margin-left: auto;
+    width: 100%;
+}
+
+.title-about span {
+    color: transparent;
+    -webkit-text-stroke: .5px #fff;
+    font-size: 45px;
+}
+
+.about-boxes{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.white-box{
+    background-color: #304041;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jett{
+    background-image:  url(../img/descarga1.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+/*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),*/
+
+.breach{
+    background-image:  url(../img/valorant-wallpaper-26-modified.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fenix{
+    background-image:  url(../img/valorant-wallpaper-30-modified.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
